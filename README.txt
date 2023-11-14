@@ -1,1 +1,1 @@
-app architecture:
+

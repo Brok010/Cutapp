@@ -1,0 +1,7 @@
+Project properties: {"Title": "My Project", "ProjectNotes": "No notes", "Coeficient": 2, "GenerateLC": true}
+Main board: {"Label": "bila hladka 18", "Real_valueX": 2600, "Real_valueY": 2070, "Real_valueZ": 18, "Notes": "kominky digestor", "Generate": true, "Direction": false}
+Saw: {"Label": "Saw", "Real_valueX": 3, "Notes": "No notes", "Generate": true}
+Cut: {"Label": "boky", "Real_valueX": 507, "Real_valueY": 185, "Notes": "No notes", "Generate": true, "Direction": false, "Count": 4}
+Cut: {"Label": "cela", "Real_valueX": 507, "Real_valueY": 188, "Notes": "No notes", "Generate": true, "Direction": false, "Count": 2}
+Cut: {"Label": "Cut", "Real_valueX": 0, "Real_valueY": 0, "Notes": "No notes", "Generate": true, "Direction": false, "Count": 1}
+Cut: {"Label": "Cut", "Real_valueX": 0, "Real_valueY": 0, "Notes": "No notes", "Generate": true, "Direction": false, "Count": 1}

@@ -2,7 +2,7 @@ import copy
 
 from objects import Cut, Incision
 from pdf_create import pdf
-from data_load import MainBoard, CurrentSaw, Cuts, ProjectProperties
+from data_get.data_load import MainBoard, CurrentSaw, Cuts, ProjectProperties
 
 def Logic():
     Divider = find_divider()

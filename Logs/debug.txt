@@ -1,5 +1,5 @@
 Project properties: {"Title": "My Project", "ProjectNotes": "No notes", "Coeficient": 2, "GenerateLC": true}
-Main board: {"Label": "whitewood", "Real_valueX": 2600, "Real_valueY": 2070, "Real_valueZ": 18, "Notes": "2xkuchyn, bez 1x vrchni 600 -> 1x vrchni 623 a 1x 473 otevrena policova", "Generate": true, "Direction": true}
+Main board: {"Label": "whitewood", "Real_valueX": 2800, "Real_valueY": 2070, "Real_valueZ": 18, "Notes": "2xkuchyn, bez 1x vrchni 600 -> 1x vrchni 623 a 1x 473 otevrena policova", "Generate": true, "Direction": true}
 Saw: {"Label": "Saw", "Real_valueX": 3, "Notes": "No notes", "Generate": false}
 Cut: {"Label": "bok", "Real_valueX": 720, "Real_valueY": 320, "Notes": "No notes", "Generate": true, "Direction": true, "Count": 14}
 Cut: {"Label": "police", "Real_valueX": 583, "Real_valueY": 320, "Notes": "mikro 623", "Generate": true, "Direction": true, "Count": 3}

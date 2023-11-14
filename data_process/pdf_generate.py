@@ -23,7 +23,7 @@ def add_main_board_content():
             pdf.cell(0, 5, str(MainBoard.valueZ), ln=1)
         if MainBoard.notes != 'No notes':
             pdf.multi_cell(0, 5, MainBoard.notes)
-        if MainBoard.real_valueX != 2600 or MainBoard.real_valueY != 2070:
+        if MainBoard.real_valueX != 2800 or MainBoard.real_valueY != 2070:
             pdf.set_font_size(6)
             pdf.set_x(pdf.Center - 10) # offset
             pdf.cell(0, 5, str(MainBoard.real_valueX) + ' x ' + str(MainBoard.real_valueY), ln=1)
@@ -67,8 +67,6 @@ def generate_crops(div, mainboardheight, mainboardwidth, x, y):
     pdf.dashed_line(x + crop, y, x + crop, y + mainboardheight)
     pdf.dashed_line(x, y + crop, x + mainboardwidth, y + crop)
     return x + crop, y + crop      
-
-
 
 def add_saw_content():
     if CurrentSaw.generate == True:
