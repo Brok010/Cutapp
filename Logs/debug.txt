@@ -1,24 +1,8 @@
 Project properties: {"Title": "My Project", "ProjectNotes": "No notes", "Coeficient": 2, "GenerateLC": true}
-Main board: {"Label": "whitewood", "Real_valueX": 2800, "Real_valueY": 2070, "Real_valueZ": 18, "Notes": "2xkuchyn, bez 1x vrchni 600 -> 1x vrchni 623 a 1x 473 otevrena policova", "Generate": true, "Direction": true}
-Saw: {"Label": "Saw", "Real_valueX": 3, "Notes": "No notes", "Generate": false}
-Cut: {"Label": "bok", "Real_valueX": 720, "Real_valueY": 320, "Notes": "No notes", "Generate": true, "Direction": true, "Count": 14}
-Cut: {"Label": "police", "Real_valueX": 583, "Real_valueY": 320, "Notes": "mikro 623", "Generate": true, "Direction": true, "Count": 3}
-Cut: {"Label": "dvere", "Real_valueX": 616, "Real_valueY": 356, "Notes": "mikro 623", "Generate": true, "Direction": true, "Count": 1}
-Cut: {"Label": "dno", "Real_valueX": 414, "Real_valueY": 320, "Notes": "450+473 otevr.", "Generate": true, "Direction": true, "Count": 2}
-Cut: {"Label": "strop", "Real_valueX": 437, "Real_valueY": 320, "Notes": "450+473 otevr.", "Generate": true, "Direction": true, "Count": 2}
-Cut: {"Label": "p.v.", "Real_valueX": 413, "Real_valueY": 300, "Notes": "450+473 otevr.", "Generate": true, "Direction": true, "Count": 2}
-Cut: {"Label": "p.v.", "Real_valueX": 436, "Real_valueY": 300, "Notes": "450+473 otevr.", "Generate": true, "Direction": true, "Count": 2}
-Cut: {"Label": "dno, strop", "Real_valueX": 864, "Real_valueY": 320, "Notes": "2x vrchni 900", "Generate": true, "Direction": true, "Count": 4}
-Cut: {"Label": "p.pol", "Real_valueX": 864, "Real_valueY": 305, "Notes": "2x vrchni 900", "Generate": true, "Direction": true, "Count": 2}
-Cut: {"Label": "p.pol", "Real_valueX": 863, "Real_valueY": 300, "Notes": "2x vrchni 900", "Generate": true, "Direction": true, "Count": 2}
-Cut: {"Label": "dvere", "Real_valueX": 564, "Real_valueY": 443, "Notes": "2x vrchni 900", "Generate": true, "Direction": true, "Count": 4}
-Cut: {"Label": "dno,strop", "Real_valueX": 564, "Real_valueY": 320, "Notes": "2x digestor", "Generate": true, "Direction": true, "Count": 4}
-Cut: {"Label": "v.p.", "Real_valueX": 563, "Real_valueY": 301, "Notes": "2x digestor", "Generate": true, "Direction": true, "Count": 2}
-Cut: {"Label": "dvere", "Real_valueX": 714, "Real_valueY": 293, "Notes": "2x digestor", "Generate": true, "Direction": true, "Count": 4}
-Cut: {"Label": "svlaky", "Real_valueX": 564, "Real_valueY": 176, "Notes": "2x digestor", "Generate": true, "Direction": true, "Count": 4}
-Cut: {"Label": "Cut", "Real_valueX": 0, "Real_valueY": 0, "Notes": "No notes", "Generate": true, "Direction": false, "Count": 1}
-Cut: {"Label": "Cut", "Real_valueX": 0, "Real_valueY": 0, "Notes": "No notes", "Generate": true, "Direction": false, "Count": 1}
-Cut: {"Label": "Cut", "Real_valueX": 0, "Real_valueY": 0, "Notes": "No notes", "Generate": true, "Direction": false, "Count": 1}
-Cut: {"Label": "Cut", "Real_valueX": 0, "Real_valueY": 0, "Notes": "No notes", "Generate": true, "Direction": false, "Count": 1}
-Cut: {"Label": "Cut", "Real_valueX": 0, "Real_valueY": 0, "Notes": "No notes", "Generate": true, "Direction": false, "Count": 1}
-Cut: {"Label": "Cut", "Real_valueX": 0, "Real_valueY": 0, "Notes": "No notes", "Generate": true, "Direction": false, "Count": 1}
+Main board: {"Label": "plechy", "Real_valueX": 2500, "Real_valueY": 1250, "Real_valueZ": 18, "Notes": "No notes", "Generate": true, "Direction": false}
+Saw: {"Label": "Saw", "Real_valueX": 3, "Notes": "No notes", "Generate": true}
+Cut: {"Label": "nastavek", "Real_valueX": 463, "Real_valueY": 304, "Notes": "No notes", "Generate": true, "Direction": false, "Count": 28}
+Cut: {"Label": "nastavek", "Real_valueX": 315, "Real_valueY": 304, "Notes": "No notes", "Generate": true, "Direction": false, "Count": 28}
+Cut: {"Label": "dno", "Real_valueX": 473, "Real_valueY": 335, "Notes": "No notes", "Generate": true, "Direction": false, "Count": 7}
+Cut: {"Label": "dno", "Real_valueX": 522, "Real_valueY": 386, "Notes": "No notes", "Generate": true, "Direction": false, "Count": 7}
+Cut: {"Label": "strop", "Real_valueX": 473, "Real_valueY": 335, "Notes": "No notes", "Generate": true, "Direction": false, "Count": 7}

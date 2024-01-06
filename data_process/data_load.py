@@ -2,7 +2,10 @@ import os
 import subprocess
 import json
 
-from objects import Board, Saw, Cut
+from Objects.Board import Board
+from Objects.Saw import Saw
+from Objects.Cut import Cut
+
 
 #get input from Logs
 folder_path = 'Logs'
@@ -14,7 +17,7 @@ if os.path.isfile(debug_file_path):
         file_content = f.readlines()
 # else create a new file and run it
 else:
-    subprocess.run(['python', 'logs.py'])
+    subprocess.run(['py', 'create_new_logs/new_log.py']) # starts the gui branch
     files_in_folder = os.listdir(folder_path)
     #check for right format
     date_format = "%Y.%m.%d"

@@ -1,4 +1,5 @@
-from aritmetics import pdf, MainBoard, CurrentSaw, Cuts, Divider, MadeBoards, Incisions, SortedAvailableBoards, ProjectProperties
+# pdf generate
+from data_process.aritmetics import pdf, MainBoard, CurrentSaw, Cuts, Divider, MadeBoards, Incisions, SortedAvailableBoards, ProjectProperties
 
 def set_header(pdf):
     def header():

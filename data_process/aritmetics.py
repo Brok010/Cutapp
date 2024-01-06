@@ -1,13 +1,17 @@
+#This is Best-Fit kind of packing algorithm - its suboptimal in some cases.
+
 import copy
 
-from objects import Cut, Incision
-from pdf_create import pdf
-from data_get.data_load import MainBoard, CurrentSaw, Cuts, ProjectProperties
+from data_process.pdf_create import pdf
+from data_process.data_load import MainBoard, CurrentSaw, Cuts, ProjectProperties
+from Objects.Cut import Cut
+from Objects.Incision import Incision
 
 def Logic():
     Divider = find_divider()
     AvailableBoards, MadeBoards, Incisions = [], [], []
     AvailableBoards.append(create_available_boards(Divider, pdf.MainBoardCount))
+    # sort cuts in descending order according to their size
     SortedCuts, SortedAvailableBoards = list_setup(Cuts, AvailableBoards, Divider)
     while SortedCuts != []:
         BoardFound = False

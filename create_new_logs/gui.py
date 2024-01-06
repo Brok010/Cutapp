@@ -3,7 +3,16 @@
 
 from tkinter import *
 
-from objects import Board, Saw, Cut #just to read basic values
+# Add the root folder to the Python path
+import os
+import sys
+current_script_dir = os.path.dirname(os.path.abspath(__file__))
+root_folder = os.path.abspath(os.path.join(current_script_dir, '..'))
+sys.path.append(root_folder)
+
+from Objects.Board import Board #just to read basic values
+from Objects.Cut import Cut
+from Objects.Saw import Saw
 
 class AutoScrollbar(Scrollbar):
    # A scrollbar that hides itself if it's not needed.
